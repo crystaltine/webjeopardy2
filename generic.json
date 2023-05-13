@@ -1,0 +1,66 @@
+{
+    "title": "Generic Jeopardy",
+    "description": "A generic Jeopardy game.",
+    "content": [
+        {
+            "colName": "col1",
+            "colItems": [
+                {
+                    "score": "100",
+                    "question": "What is the capital of the United States?",
+                    "answer": "Washington, D.C." 
+                },
+                {
+                    "score": "200",
+                    "question": "What is the capital of the United Kingdom?",
+                    "answer": "London"
+                },
+                {
+                    "score": "300",
+                    "question": "What is the capital of France?",
+                    "answer": "Paris"
+                },
+                {
+                    "score": "400",
+                    "question": "What is the capital of Germany?",
+                    "answer": "Berlin"
+                },
+                {
+                    "score": "500",
+                    "question": "What is the capital of Italy?",
+                    "answer": "Rome"
+                }
+            ]
+        },
+        {
+            "colName": "col2",
+            "colItems": [
+                {
+                    "score": "100",
+                    "question": "what is 1+1",
+                    "answer": "2" 
+                },
+                {
+                    "score": "200",
+                    "question": "what is 9+19",
+                    "answer": "28"
+                },
+                {
+                    "score": "300",
+                    "question": "what is x if 2x+9=x+19",
+                    "answer": "10"
+                },
+                {
+                    "score": "400",
+                    "question": "for what value of x in [0, pi] is sin(x)=1",
+                    "answer": "pi/2"
+                },
+                {
+                    "score": "500",
+                    "question": "what is the value of the second derivative of 4x^2 + sinx at x=0",
+                    "answer": "8"
+                }
+            ]
+        }
+    ]
+}

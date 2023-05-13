@@ -1,0 +1,51 @@
+:root {
+    --primaryColorBright: rgb(98, 210, 34);
+    --primaryColorDark: rgb(57, 164, 59);
+    --secondaryColorBright: rgb(46, 231, 237);
+    --secondaryColorDark: rgb(58, 179, 197);
+
+    --primaryGradient: linear-gradient(90deg, var(--primaryColorBright), var(--primaryColorDark));
+    --secondaryGradient: linear-gradient(90deg, var(--secondaryColorBright), var(--secondaryColorDark));
+}
+
+
+body {
+    background-color: #121319;
+    color:white;
+    font-family: Lexend, Rubik;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.main-container {
+    position:absolute;
+    top:0;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.jeopardy-grid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid white;
+}
+.grid-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.jeopardy-item {
+    padding:10px;
+    transition-duration: 0.3s;
+}
+.jeopardy-item:hover {
+    cursor: pointer;
+    background-color: rgba(69, 70, 83, 0.619);
+}
