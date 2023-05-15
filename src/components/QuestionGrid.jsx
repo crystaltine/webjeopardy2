@@ -10,11 +10,11 @@ const QuestionGrid = (props) => {
             {props.questionJSON.map((col, colIndex) => {
                 return (
                     <div className="grid-col" key={colIndex}>
-                        <span style={{
+                        <span className="grid-title" style={{
                             fontSize: col.colName.length > 25? `${colNameTextSizeScaler(col.colName.length)}rem` : "2rem",
                             margin: col.colName.length > 25? "0.25rem 0 0.25rem 0" : "0.5rem 0 0.5rem 0",
                         }}>{col.colName}</span>
-
+                        <div style={{width:"100%"}}>
                         {col.colItems.map((item, itemIndex) => {
                             return (
                                 <GridItem 
@@ -27,6 +27,7 @@ const QuestionGrid = (props) => {
                                 />
                             );
                         })}
+                        </div>
                     </div>
                 );
             })}

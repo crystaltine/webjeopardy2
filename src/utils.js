@@ -14,7 +14,7 @@ function colNameTextSizeScaler(nameLen) {
     return 2;
   }
   // Desmos: y=-1.75\frac{\left(x-25\right)}{\left(x+25\right)}+2
-  return -1.75 * ((nameLen - 25) / (nameLen + 25)) + 2;
+  return -3 * ((nameLen - 25) / (nameLen + 25)) + 2;
 }
 
 export { loadJSONfromURL, colNameTextSizeScaler };
