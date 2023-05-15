@@ -1,0 +1,121 @@
+{
+    "title": "PF2 Health Insurance",
+    "description": "Check for Understanding - U4 Consultation",
+    "content": [
+        {
+            "colName": "Health Insurance Premiums",
+            "colItems": [
+                {
+                    "score": "100",
+                    "question": "Would a plan with a very high deductible have a relatively low or high monthly premium?",
+                    "answer": "Low monthly premium",
+                    "visited": false
+                },
+                {
+                    "score": "300",
+                    "question": "Name 4 factors that can affect the cost of health insurance premiums.",
+                    "answer": "Any of: Gender, Age, Location, Tobacco use, Individual vs. family plan, Plan category, Incident history, Habits, Pre-existing diseases, Obesity, Employment, etc.",
+                    "visited": false
+                },
+                {
+                    "score": "500",
+                    "question": "What tax credit helps eligible individuals and families pay for health insurance purchased through the Health Insurance Marketplace?",
+                    "answer": "Premium Tax Credit",
+                    "visited": false
+                }
+            ]
+        },
+        {
+            "colName": "Types of Health Insurance Plans",
+            "colItems": [
+                {
+                    "score": "100",
+                    "question": "What type of health insurance plan has a very low monthly premium, but a very high deductible, and covers mostly emergencies?",
+                    "answer": "Catastrophic Health Insurance Plan",
+                    "visited": false 
+                },
+                {
+                    "score": "500",
+                    "question": "Which type of health insurance plan allows you to see any provider in or out of network, but pays more for in-network providers?",
+                    "answer": "PPO (Preferred provider organization) Plan",
+                    "visited": false
+                },
+                {
+                    "score": "300",
+                    "question": "What type of health insurance plan combines a high-deductible plan with a savings account that you can use for qualified medical expenses?",
+                    "answer": "HSA (Health Savings Account) Plan",
+                    "visited": false
+                }
+            ]
+        },
+        {
+            "colName": "Providers, Programs, and Regulations",
+            "colItems": [
+                {
+                    "score": "100",
+                    "question": "Name 3 large health insurance providers in the United States.",
+                    "answer": "Any of: Anthem, Aetna/CVS, Blue Cross Blue Shield, Cigna, Centene, Humana, Kaiser Permanente, UnitedHealthcare, etc.",
+                    "visited": false
+                },
+                {
+                    "score": "300",
+                    "question": "What is the name of the federally funded service established by the Affordable Care Act that helps people compare plans, enroll in plans, and get help?",
+                    "answer": "Healthcare.gov/Health Insurance Marketplace",
+                    "visited": false
+                },
+                {
+                    "score": "500",
+                    "question": "In addition to providing healthcare for people aged 65 and older, what is another group that Medicare provide healthcare for?",
+                    "answer": "Certain people with disabilities, people with ESRD/permanent kidney failure",
+                    "visited": false 
+                }
+            ]
+        },
+        {
+            "colName": "Coverage",
+            "colItems": [
+                {
+                    "score": "100",
+                    "question": "Which plan commonly has the lowest deductible and covers the most services?",
+                    "answer": "Platinum Plan",
+                    "visited": false 
+                },
+                {
+                    "score": "300",
+                    "question": "What is the term for paying a percentage of costs of a covered health care service after you've paid your deductible?",
+                    "answer": "Coinsurance",
+                    "visited": false
+                },
+                {
+                    "score": "500",
+                    "question": "Give an example of a medical service that is not covered by most health insurance plans.",
+                    "answer": "Any of: Cosmetic surgery, Weight loss surgery, Alternative medicine, Discretionary operations, etc.",
+                    "visited": false
+                }
+            ]
+        },
+        {
+            "colName": "General",
+            "colItems": [
+                {
+                    "score": "100",
+                    "question": "What is the priority of health insurance relative to other types of insurance? Explain.",
+                    "answer": "High priority, since health insurance is necessary to pay for medical expenses, which can be very expensive and unexpected.",
+                    "visited": false 
+                },
+                {
+                    "score": "300",
+                    "question": "What is the term for the health insurance plan that covers specific diseases or illnesses, such as cancer or heart attack, and typically provides a lump-sum payment?",
+                    "answer": "Critical illness insurance/Dread disease policy",
+                    "visited": false
+                },
+                {
+                    "score": "500",
+                    "question": "Give a brief summary of Obamacare.",
+                    "answer": "Obamacare, or the Affordable Care Act, is a federal law that requires all Americans to have health insurance. It also provides subsidies to help people pay for health insurance.",
+                    "visited": false
+                }
+            ]
+        }
+    ]
+}

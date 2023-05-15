@@ -8,10 +8,16 @@ import React from 'react';
 
 const GridItem = (props) => {
     return (
-        <div className='jeopardy-item'>
+        props.visited?
+        <div className={`jeopardy-item ${props.visited? "highlight-red" : "highlight-green"}`}>
             {props.score}
-            <a href="https://www.google.com">sdfs</a>
-        </div>
+        </div> :
+        <button
+            className={`jeopardy-item ${props.visited? "highlight-red" : "highlight-green"}`} 
+            onClick={() => props.selectItem(props.colIndex, props.itemIndex)}
+            >
+            {props.score}
+        </button>
     );
 };
 
