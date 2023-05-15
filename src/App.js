@@ -76,7 +76,7 @@ export default function App() {
       <SideBar onSelectGameData={onSelectGameData} currSelectedGame={gameName} openImportMenu={showImportMenu}/>
       <div className="main-container">
         <div className="App-header">
-          piece of trash web app version 0.0.0.0.2 pre pre alpha test 0.1a prototype
+          Webjeopardy v. 1.0-rc1
           <button className="header-button">
             <a href="https://github.com/hogridr/webjeopardy2" target="_blank" rel="noopener noreferrer">
               <img src="https://www.svgrepo.com/show/512317/github-142.svg" className="header-button-img" alt="Github"></img>
