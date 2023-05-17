@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/webjeopardy2/static/css/main.6292d29d.css",
-    "main.js": "/webjeopardy2/static/js/main.5b24f15b.js",
+    "main.css": "/webjeopardy2/static/css/main.0f952a41.css",
+    "main.js": "/webjeopardy2/static/js/main.449067c0.js",
     "index.html": "/webjeopardy2/index.html",
-    "main.6292d29d.css.map": "/webjeopardy2/static/css/main.6292d29d.css.map",
-    "main.5b24f15b.js.map": "/webjeopardy2/static/js/main.5b24f15b.js.map"
+    "main.0f952a41.css.map": "/webjeopardy2/static/css/main.0f952a41.css.map",
+    "main.449067c0.js.map": "/webjeopardy2/static/js/main.449067c0.js.map"
   },
   "entrypoints": [
-    "static/css/main.6292d29d.css",
-    "static/js/main.5b24f15b.js"
+    "static/css/main.0f952a41.css",
+    "static/js/main.449067c0.js"
   ]
 }
