@@ -10,4 +10,8 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+  color:rgb(198, 205, 241);
+  background-color: rgb(50, 54, 60);
+  font-size:15px;
+  padding:1px;
 }

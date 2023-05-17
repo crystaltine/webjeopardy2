@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import "../styles/sidebarstyles.css"
 
 /*
@@ -6,6 +6,7 @@ import "../styles/sidebarstyles.css"
 */
 
 const SideBar = (props) => {
+    useEffect(() => {}, []);
 
     const keys = Object.keys(localStorage)
 
@@ -16,7 +17,7 @@ const SideBar = (props) => {
                 if (key.startsWith('webjeopardy:')) {
                     return (
                         <button
-                            onClick={() => props.onSelectGameData(key)}
+                            onClick={() => {props.onSelectGameData(key)}}
                             className={`select-button${key === props.currSelectedGame? " selected-game" : ""}`}
                         ><span className={key === props.currSelectedGame? "selected-button-text" : "button-text"}>
                             {JSON.parse(localStorage.getItem(key)).title}
@@ -29,7 +30,7 @@ const SideBar = (props) => {
             })}
 
             <button className="import-json-button" onClick={props.openImportMenu}>
-                <img className="import-json-icon" src="https://www.svgrepo.com/show/507611/code-alt.svg" alt="Import Game"></img>
+                <img className="import-json-icon" src="https://www.svgrepo.com/show/502464/add.svg" alt="Import Game"></img>
             </button>
         </div>
     );
